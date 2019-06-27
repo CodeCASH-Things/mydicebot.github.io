@@ -78,12 +78,14 @@ export class Simulator extends BaseDice {
             case "currency=btc":{
 
                 info.info.balance=1.000000000*0.01;
+                info.currentInfo.balance=1.000000000*0.01;
 
                 break;
             }
             case "currency=eth":{
 
                 info.info.balance=1.000000000*0.001;
+                info.currentInfo.balance=1.000000000*0.001;
 
                 break;
             }
@@ -91,6 +93,7 @@ export class Simulator extends BaseDice {
                case "currency=ltc":{
 
                 info.info.balance=1.000000000;
+                info.currentInfo.balance=1.000000000;
 
                 break;
             }
@@ -98,6 +101,7 @@ export class Simulator extends BaseDice {
                case "currency=doge":{
 
                 info.info.balance=1.000000000*1000;
+                info.currentInfo.balance=1.000000000*1000;
 
                 break;
             }
@@ -105,12 +109,14 @@ export class Simulator extends BaseDice {
                case "currency=bch":{
 
                 info.info.balance=1.000000000;
+                info.currentInfo.balance=1.000000000;
 
                 break;
             }
 
             default:{
                 info.info.balance=1.000000000;
+                info.currentInfo.balance=1.000000000;
             }
         }
 
